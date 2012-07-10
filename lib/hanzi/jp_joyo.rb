@@ -1,6 +1,6 @@
 module Hanzi
   module JP
-    JOYO_LETTERS ||= open('./JP_Joyo.txt', 'r'){ |l| l.read.chomp }
+    JOYO_LETTERS ||= open('./jp_joyo.txt', 'r'){ |l| l.read.chomp }
   end
   class String
     def is_joyo?
